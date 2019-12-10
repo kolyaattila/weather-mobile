@@ -1,0 +1,29 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~33.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-native-fontawesome": "^0.1.0",
+    "expo": "^33.0.1",
+    "moment": "^2.22.2",
+    "react": "16.3.1",
+    "react-native": "~0.59.10",
+    "react-native-svg": "^9.13.5"
+  }
+}
